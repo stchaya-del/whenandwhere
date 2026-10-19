@@ -6,6 +6,6 @@
     "versionName": "1.3",
     "packageId": "com.scrimos.whenandwhere",
     "releasedOn": "2026-10-19",
-    "notes": "Adds the required-update check."
+    "notes": "Adds the required-update check, shows saved places on the map without a GPS fix, and adds Wi-Fi/cell location indoors."
   }
 }

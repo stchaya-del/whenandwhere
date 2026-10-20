@@ -22,7 +22,7 @@
   <li>Your location and your reminders stay on your device.</li>
   <li>The only information we receive is short technical error reports (see "Diagnostic reports" below), so that we can fix problems.</li>
   <li>The app does not contain ads or tracking.</li>
-  <li>To show a map and suggest addresses, the app contacts third-party services (listed below), which can see technical information such as your IP address.</li>
+  <li>To show a map and suggest addresses, the app uses third-party services (Google Maps and the Photon address search, listed below), which can see technical information such as your IP address.</li>
 </ul>
 
 <h2>Information the app uses</h2>
@@ -44,9 +44,9 @@
     <td>Sent to the Photon geocoding service (photon.komoot.io), which uses OpenStreetMap data and is operated by Komoot. See the Photon and Komoot privacy information on their website.</td>
   </tr>
   <tr>
-    <td><strong>Map requests</strong>: the map area being viewed</td>
-    <td>To display the map.</td>
-    <td>Map tiles are loaded from OpenStreetMap (tile.openstreetmap.org), and the map library is loaded from the unpkg content delivery network. These services can see your IP address and the area you view. See the OpenStreetMap Foundation and unpkg privacy information.</td>
+    <td><strong>Map display</strong>: the map area you view, map interactions such as panning and zooming, and technical details collected by Google's Maps SDK (your device model and Android version, the SDK version, your IP address, crash information, and a random identifier created by the Maps SDK)</td>
+    <td>To display the map, your position on it and your saved places.</td>
+    <td>Handled by Google (Google Maps Platform) through the Google Maps SDK built into the app. Google describes this data as used to operate and improve its services. The app does not give Google your saved places or reminder text. See Google's Privacy Policy and Google's Maps SDK data disclosure.</td>
   </tr>
   <tr>
     <td><strong>Diagnostic reports</strong>: the type and message of an error, how long a request took, the app version, the Android version, your device make and model, and a random six-character tester code created on your device</td>
@@ -70,7 +70,7 @@
 </ul>
 
 <h2>Sharing and selling</h2>
-<p>We do not sell your data, share it for advertising, or give it to anyone. The only outside parties that receive any information are the map and address services listed above, which are used so the app can show a map and suggest addresses, and Telegram, which delivers the diagnostic reports described above.</p>
+<p>We do not sell your data, share it for advertising, or give it to anyone. The only outside parties that receive any information are Google (which provides the map), the Photon address search service, and Telegram (which delivers the diagnostic reports described above). Each is used only for the purpose given above.</p>
 
 <h2>Storage, retention and your choices</h2>
 <ul>

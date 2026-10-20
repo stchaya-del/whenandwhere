@@ -2,10 +2,10 @@
   "minVersionCode": 3,
   "message": "A required update is available. Please update WhenAndWhere from Google Play to keep using it.",
   "latest": {
-    "versionCode": 4,
-    "versionName": "1.3",
+    "versionCode": 5,
+    "versionName": "1.4",
     "packageId": "com.scrimos.whenandwhere",
-    "releasedOn": "2026-10-19",
-    "notes": "Adds the required-update check, shows saved places on the map without a GPS fix, and adds Wi-Fi/cell location indoors."
+    "releasedOn": "2026-10-20",
+    "notes": "Adds the required-update check, shows saved places on the map without a GPS fix, adds Wi-Fi/cell location indoors, adds button-style tabs, and lets reminders be limited to a time range."
   }
 }

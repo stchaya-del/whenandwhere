@@ -4,8 +4,8 @@
   "latest": {
     "versionCode": 8,
     "versionName": "1.7",
-    "packageId": "com.scrimos.whenandwhe21",
-    "releasedOn": "2026-10-20",
+    "packageId": "com.scrimos.whenandwhere",
+    "releasedOn": "2026-10-21",
     "notes": "Adds voice and shared reminders: say or share a sentence like 500 meters from 25 Mason Street to add a reminder, with Gemini interpreting looser phrasing. Includes Google Maps, time-range reminders, indoor location, button-style tabs and error reports."
   }
 }

@@ -12,7 +12,7 @@
 </head>
 <body>
 <h1>WhenAndWhere Privacy Policy</h1>
-<p>Effective date: 20 October 2026</p>
+<p>Effective date: 21 October 2026</p>
 
 <p>WhenAndWhere ("the app") is an Android app published by SRCIMOS ("we", "us"). It watches your location and plays a bell and shows a reminder when you get near places you choose. This policy explains what information the app uses and who can see it.</p>
 
@@ -22,7 +22,7 @@
   <li>Your location and your reminders stay on your device.</li>
   <li>The only information we receive is short technical error reports (see "Diagnostic reports" below), so that we can fix problems.</li>
   <li>The app does not contain ads or tracking.</li>
-  <li>To show a map and suggest addresses, the app uses third-party services (Google Maps and the Photon address search, listed below), which can see technical information such as your IP address.</li>
+  <li>To show a map, suggest addresses and understand voice requests, the app uses third-party services (Google Maps, Google's speech and Gemini services, and the Photon address search, listed below), which can see technical information such as your IP address.</li>
 </ul>
 
 <h2>Information the app uses</h2>
@@ -49,6 +49,11 @@
     <td>Handled by Google (Google Maps Platform) through the Google Maps SDK built into the app. Google describes this data as used to operate and improve its services. The app does not give Google your saved places or reminder text. See Google's Privacy Policy and Google's Maps SDK data disclosure.</td>
   </tr>
   <tr>
+    <td><strong>Voice and shared sentences</strong>: a sentence you speak with the microphone button, or share into the app from another app, such as "remind me 500 meters from 25 Mason Street"</td>
+    <td>To create a reminder from what you said or shared.</td>
+    <td>Your phone's speech recognition service (part of Google) turns your speech into text. The app receives only the text and has no microphone access of its own. The app first understands the sentence on your device. If it cannot, the sentence (up to 500 characters, and nothing else) is sent to Google's Gemini API so that it can be interpreted. The app uses Google's free Gemini service, and under Google's terms for that service Google may use what is submitted to improve its products, and reviewers may read it after it has been disconnected from any account or key. For that reason, avoid including personal details in what you say beyond the place and message. The place you name is then looked up with the Photon address search, as described above. See Google's privacy policy.</td>
+  </tr>
+  <tr>
     <td><strong>Diagnostic reports</strong>: the type and message of an error, how long a request took, the app version, the Android version, your device make and model, and a random six-character tester code created on your device</td>
     <td>To find and fix problems, for example when address search fails or the app crashes.</td>
     <td>Sent to the developer's private Telegram chat through Telegram's servers (api.telegram.org). Reports never include your location, what you type in search, addresses or reminder text. Telegram can see your IP address. See Telegram's privacy policy. The tester code is not linked to your name or account.</td>
@@ -70,7 +75,7 @@
 </ul>
 
 <h2>Sharing and selling</h2>
-<p>We do not sell your data, share it for advertising, or give it to anyone. The only outside parties that receive any information are Google (which provides the map), the Photon address search service, and Telegram (which delivers the diagnostic reports described above). Each is used only for the purpose given above.</p>
+<p>We do not sell your data, share it for advertising, or give it to anyone. The only outside parties that receive any information are Google (which provides the map, converts speech to text, and, only when needed, interprets a sentence with its Gemini API), the Photon address search service, and Telegram (which delivers the diagnostic reports described above). Each is used only for the purpose given above.</p>
 
 <h2>Storage, retention and your choices</h2>
 <ul>

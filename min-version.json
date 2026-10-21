@@ -1,11 +1,11 @@
 {
-  "minVersionCode": 8,
+  "minVersionCode": 9,
   "message": "A required update is available. Please update WhenAndWhere from Google Play to keep using it.",
   "latest": {
-    "versionCode": 8,
-    "versionName": "1.7",
+    "versionCode": 9,
+    "versionName": "1.8",
     "packageId": "com.scrimos.whenandwhere",
     "releasedOn": "2026-10-21",
-    "notes": "Adds voice and shared reminders: say or share a sentence like 500 meters from 25 Mason Street to add a reminder, with Gemini interpreting looser phrasing. Includes Google Maps, time-range reminders, indoor location, button-style tabs and error reports."
+    "notes": "Replaces the Destination tab with + (add manually) and microphone (add by voice) buttons on the Reminders tab. Includes voice and shared reminders, Google Maps, time-range reminders and error reports."
   }
 }

@@ -1,11 +1,11 @@
 {
-  "minVersionCode": 9,
+  "minVersionCode": 10,
   "message": "A required update is available. Please update WhenAndWhere from Google Play to keep using it.",
   "latest": {
-    "versionCode": 9,
-    "versionName": "1.8",
+    "versionCode": 10,
+    "versionName": "1.9",
     "packageId": "com.scrimos.whenandwhere",
     "releasedOn": "2026-10-21",
-    "notes": "Replaces the Destination tab with + (add manually) and microphone (add by voice) buttons on the Reminders tab. Includes voice and shared reminders, Google Maps, time-range reminders and error reports."
+    "notes": "Adds Hebrew voice support with a remembered voice language setting, and a 500 meter default distance when none is given. Includes the + and microphone buttons, voice and shared reminders, Google Maps and time-range reminders."
   }
 }

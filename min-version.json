@@ -1,11 +1,11 @@
 {
-  "minVersionCode": 7,
+  "minVersionCode": 8,
   "message": "A required update is available. Please update WhenAndWhere from Google Play to keep using it.",
   "latest": {
-    "versionCode": 7,
-    "versionName": "1.6",
-    "packageId": "com.scrimos.whenandwhere",
+    "versionCode": 8,
+    "versionName": "1.7",
+    "packageId": "com.scrimos.whenandwhe21",
     "releasedOn": "2026-10-20",
-    "notes": "Switches the map to Google Maps with pins and radius circles, removes the title bar for more screen space, and includes all earlier changes: required-update check, indoor Wi-Fi/cell location, button-style tabs, reminder time ranges, a longer address-search wait, and error reports to the developer."
+    "notes": "Adds voice and shared reminders: say or share a sentence like 500 meters from 25 Mason Street to add a reminder, with Gemini interpreting looser phrasing. Includes Google Maps, time-range reminders, indoor location, button-style tabs and error reports."
   }
 }

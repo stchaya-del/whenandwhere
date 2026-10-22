@@ -1,11 +1,11 @@
 {
-  "minVersionCode": 10,
+  "minVersionCode": 11,
   "message": "A required update is available. Please update WhenAndWhere from Google Play to keep using it.",
   "latest": {
-    "versionCode": 10,
-    "versionName": "1.9",
+    "versionCode": 11,
+    "versionName": "1.10",
     "packageId": "com.scrimos.whenandwhere",
-    "releasedOn": "2026-10-21",
-    "notes": "Adds Hebrew voice support with a remembered voice language setting, and a 500 meter default distance when none is given. Includes the + and microphone buttons, voice and shared reminders, Google Maps and time-range reminders."
+    "releasedOn": "2026-10-22",
+    "notes": "New app icon: a location pin with a bell. No other changes."
   }
 }

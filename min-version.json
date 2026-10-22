@@ -1,9 +1,9 @@
 {
-  "minVersionCode": 11,
+  "minVersionCode": 12,
   "message": "A required update is available. Please update WhenAndWhere from Google Play to keep using it.",
   "latest": {
-    "versionCode": 11,
-    "versionName": "1.10",
+    "versionCode": 12,
+    "versionName": "1.11",
     "packageId": "com.scrimos.whenandwhere",
     "releasedOn": "2026-10-22",
     "notes": "New app icon: a location pin with a bell. No other changes."
